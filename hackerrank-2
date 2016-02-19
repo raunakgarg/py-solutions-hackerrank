@@ -1,0 +1,5 @@
+to take input and print it back
+
+
+raunak = raw_input()
+print raunak
