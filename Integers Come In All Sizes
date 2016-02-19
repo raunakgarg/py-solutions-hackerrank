@@ -1,0 +1,9 @@
+
+
+
+
+raunak = int(raw_input())
+garg = int(raw_input())
+best = int(raw_input())
+hero = int(raw_input())
+print pow(raunak,garg) + pow(best,hero)
