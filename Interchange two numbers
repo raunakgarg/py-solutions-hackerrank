@@ -1,0 +1,10 @@
+#in this problem we have to take two numbers in touple and the have to interchange them.....
+#so lets begin
+
+
+
+raunak = int(raw_input())
+garg = int(raw_input())
+a = (raunak,garg)
+print a[1]
+print a[0]
