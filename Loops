@@ -1,0 +1,19 @@
+#here what you have to do..is to take input from user and print the values of square of values from range 0 to that number
+
+# first of all take an example with for loop
+
+
+raunak = int(raw_input())
+for i in range(0,raunak)
+print i*i
+
+
+
+# by while loop
+
+raunak = int(raw_input())
+
+i=0
+while(i<5)
+  print i*i
+  i=+1
