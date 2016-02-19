@@ -1,0 +1,14 @@
+#now in this problem we have to devide two numbers and also have to perform modulus function...
+
+#to do so we have to import a module named __future__ and in this module we have to import a function name division
+
+# so lets start .....
+
+
+from __future__ import division
+
+raunak=int(raw_input())
+garg = int(raw_input())
+
+print raunak/garg                   //output = divide
+print raunak//garg                 //output = modules
