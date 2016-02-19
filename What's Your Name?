@@ -1,0 +1,7 @@
+
+
+
+raunak = raw_input()
+garg = raw_input()
+
+print("Hello "+raunak+ " "+garg+"! You just delved into python.")
