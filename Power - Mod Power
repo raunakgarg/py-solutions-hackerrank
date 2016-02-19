@@ -1,0 +1,9 @@
+in this ques we are having power of 2 and 3 numbers 
+
+
+
+raunak = int(raw_input())
+garg = int(raw_input())
+hero = int(raw_input())
+print pow(raunak,garg)
+print pow(raunak,garg,hero)
