@@ -1,0 +1,8 @@
+raunak=int(raw_input())
+list1 = raw_input().split()
+tup=()
+for i in range(raunak):
+    t=(int(list1[i]),)
+    tup=tup+t
+    
+print hash(tup)
