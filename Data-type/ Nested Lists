@@ -1,0 +1,11 @@
+raunak = int(raw_input())
+mainlist=[]
+for i in range(raunak):
+    listx=[] 
+    listx.append(str(raw_input()))
+    listx.append(float(raw_input()))
+    mainlist.append(listx)
+mainlist.sort(key=lambda x: (x[1]))
+rau=sorted(mainlist)[1]
+
+print rau[0]
