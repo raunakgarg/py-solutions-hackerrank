@@ -1,0 +1,13 @@
+raunak = int(raw_input())
+list1= raw_input().split()
+garg = int(raw_input())
+list2= raw_input().split()
+list(map(int,list1))
+list(map(int,list2))
+c = set(list1).union(set(list2))
+d = set(list1).intersection(set(list2))
+e= list(c - d)
+e.sort()
+ans=len(e)
+for i in e:
+    print i
