@@ -1,0 +1,8 @@
+raunak=raw_input()
+garg=raw_input()
+rokt = garg.split(' ')
+roks=int(rokt[0])
+hero=str(rokt[1])
+roky=roks+1
+string1=raunak[:roks]+ hero + raunak[roky:]
+print string1
