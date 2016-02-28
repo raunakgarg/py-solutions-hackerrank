@@ -1,0 +1,15 @@
+raunak=raw_input()
+garg=raw_input()
+x=len(raunak)
+y=len(garg)
+k=0
+for i in range(0,x-y+1):
+    z=0
+    if(garg[0]==raunak[i]):
+        for j in range(1,y):
+            if(garg[j]==raunak[i+j]):
+                z=z+1
+        if(z==y-1):
+            k=k+1
+print k
+         
